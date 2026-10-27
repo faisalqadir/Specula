@@ -1,0 +1,3 @@
+#!/bin/bash
+# Shortcut: Tools/sp <automation command>
+exec "$(dirname "$0")/../.build/debug/speculatool" post "$@"

@@ -1,0 +1,9 @@
+.build/
+build/
+.swiftpm/
+*.xcodeproj/
+xcuserdata/
+.DS_Store
+TestData/
+docs/radiant-ui-strings.tsv
+*.dmg
