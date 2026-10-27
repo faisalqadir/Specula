@@ -49,3 +49,7 @@ Specula is not a certified medical device and must not be used for diagnosis.
 * Movie export is MP4 only (no WMV).
 * PACS has only been tested against pynetdicom, not a production archive (Orthanc, dcm4chee, vendor PACS).
 * Licensing, update checks, crash reporting and Windows-firewall handling are intentionally not reproduced.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The generated DICOM dictionary (`Sources/DICOMCore/DictionaryData.swift`) comes from DCMTK and stays under its BSD-style license; see [docs/THIRD-PARTY.md](docs/THIRD-PARTY.md).
